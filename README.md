@@ -1,5 +1,8 @@
 PROJECT: EDUMORE 
 
+![Screenshot 2024-07-06 at 11 34 19](https://github.com/IgweEmmanuel/Project_Edumore/assets/136444225/949af463-bc69-41c4-8caa-4d7323bc0e54)
+
+
 Edumore is an educational web application that answers the pain points of teachers and students and schools as well. Helping students learn through videos and texts. Also helps teachers collaborate by sharing notes and ideas for improved performance and efficiency in their teaching delivery and students' performance.
 
 ​
