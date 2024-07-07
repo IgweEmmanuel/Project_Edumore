@@ -47,7 +47,9 @@ This helps teacher's work to be less stressful and students copy less note while
 
 ​
 
-2. CHALLENGES:
+MY EXPERIENCE BUILDING THS PROJECT:
+
+1. CHALLENGES:
 The most technical challenge I encountered this week:
 This week, I started out very well and have to hard code my APIs. I did the endpoints ranging from register, generate token, refresh token password reset using the django rest framework yasg. 
 In the course of this, I encountered a serious bug issue with an email sending endpoint. I wanted to create an email sending and receiving endpoint that will allow teachers to send emails to students. I have to use MAILGUN. There are other free mailing systems like SENDGRID. I encountered a serious issue connecting it to my backend. I have not resolved it up till now. 
@@ -66,16 +68,16 @@ Upkeep:
 I considered gaining industry skill and at the same time to get money for my upkeep while in the programme. This is why I got the gig in the first place. Going through this programme without working and not having enough means to get enough money to take care of one’s needs is truly frustrating I must say. Thanks be to God almighty who has been coming through for me.
 
 
-3. COLLABORATION:
+2. COLLABORATION:
 I have received help from a peer at the Costian Hub ALX Lagos Nigeria. This is the issue with the front end.
 
 
-4. PROJECT UPDATES:
+3. PROJECT UPDATES:
 Change from LMS to video streaming platform
 Reason: this is because of time. I do not need to build my own API but consume available APIs on the internet.
 
 
- 5. PROGRESS:
+4. PROGRESS:
 On a scale of 1 to 10, I would rate my progress a 4.
 Progress Assessment: 
 In this project of building a Learning Management System, I was able to conclude the backend authentication and user login and registration with django.
