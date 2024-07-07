@@ -47,7 +47,7 @@ This helps teacher's work to be less stressful and students copy less note while
 
 ​
 
-MY EXPERIENCE BUILDING THS PROJECT:
+MY EXPERIENCE BUILDING THIS PROJECT:
 
 1. CHALLENGES:
 The most technical challenge I encountered this week:
