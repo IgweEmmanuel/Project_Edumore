@@ -1,5 +1,47 @@
-EMMANUEL CHIGOZIE IGWE (Edumor LMS)
+PROJECT: EDUMORE 
 
+Edumore is an educational web application that answers the pain points of teachers and students and schools as well. Helping students learn through videos and texts. Also helps teachers collaborate by sharing notes and ideas for improved performance and efficiency in their teaching delivery and students' performance.
+
+​
+
+My Personal Story on Edumore:
+
+Hey Chiboy why is your note not up to date? My teacher cleaned the board before I could finish copying from the board. 
+Chiboy you failed again this term! Mummy yelled at Chiboy.
+
+​
+
+Teaching Computer Studies and Data Processing for four years has exposed me to first hand experience with what teachers, students and parents pass through in secondary and primary schools as regarding the issue of performance and notes.
+
+It has always been a serious issue when it comes to note, assingments and exams.
+
+I could remeber teachers been penalized for students/pupil's notes not been up to date. 
+
+Ofcourse you know that note taking is key to the success of any student and I don't bame the school managements for taking some actions sometimes. But the teachers deserve some rest too on this isse.
+
+
+
+We actually need more better ways to stop students from failing and stop all these shouts on teachers and even the management to offer bettre services to parents.
+
+To this note Edumore was born to offer the MORE better solutions to the note issues and extends profficiency among teachers through collabortion with fellow teachers. This is so that student's performance can increase and teachers knowledge become excellent in their areas through collaboration and school managements achieving better results.
+
+​
+
+It offers the following features:
+
+1. Collaboration
+
+2. Notes in pdf/doc formats
+
+3. Notes in Videos
+
+4. Student's access to these materials.
+
+​
+
+This helps teacher's work to be less stressful and students copy less note while using that time to listen more in class and study with the platform.
+
+​
 
 2. CHALLENGES:
 The most technical challenge I encountered this week:
