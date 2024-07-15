@@ -4,16 +4,34 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from '../../../assets/logo.svg'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+// import { logout } from '../../../utils/auth'
+import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '/about' },
+  { name: 'Services', href: '/services' },
+  { name: 'Contact', href: '/contact' },
+  { name: 'Dashboard', href: '/teacher/dashboard' },
+  { name: 'Profile', href: '/teacher/profile' },
 ]
 
 export default function Header() {
+  const navigate = useNavigate()
+  // const toRegister = () => {
+  //   navigate('/register')
+  // }
+  const toLogout = () => {
+    navigate('/logout/')
+    toast.success('You have logged out', {
+      position: 'top-right',
+      autoClose: 3000,
+      theme: 'colored',
+    })
+  }
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -24,7 +42,7 @@ export default function Header() {
           className="flex items-center justify-between p-6 lg:px-8"
         >
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <Link to="/">
                 <img alt="" src={Logo} className="h-8 w-auto" />
@@ -52,14 +70,13 @@ export default function Header() {
               </a>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Link
-              to="/login"
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              Log in <span aria-hidden="true">&rarr;</span>
-            </Link>
-          </div>
+          <button
+            className="hidden lg:flex lg:flex-1 lg:justify-end"
+            type="submit"
+            onClick={toLogout}
+          >
+            Log out <span aria-hidden="true">&rarr;</span>
+          </button>
         </nav>
         <Dialog
           open={mobileMenuOpen}
@@ -95,14 +112,9 @@ export default function Header() {
                     </a>
                   ))}
                 </div>
-                <div className="py-6">
-                  <Link
-                    to="/login"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Log in
-                  </Link>
-                </div>
+                <button className="py-6" type="submit" onClick={toLogout}>
+                  Lout out
+                </button>
               </div>
             </div>
           </DialogPanel>

@@ -7,10 +7,10 @@ import Logo from '../../../assets/logo.svg'
 import { Link } from 'react-router-dom'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '/about' },
+  { name: 'Services', href: '/services' },
+  { name: 'Contact', href: '/contact' },
 ]
 
 export default function Header() {
@@ -53,12 +53,12 @@ export default function Header() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <Link
+            {/* <Link
               to="/login"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               Log in <span aria-hidden="true">&rarr;</span>
-            </Link>
+            </Link> */}
           </div>
         </nav>
         <Dialog
