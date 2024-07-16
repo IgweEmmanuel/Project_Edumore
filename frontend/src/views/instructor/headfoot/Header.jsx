@@ -44,7 +44,7 @@ export default function Header() {
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <Link to="/">
+              <Link to="/home">
                 <img alt="" src={Logo} className="h-8 w-auto" />
               </Link>
             </a>
