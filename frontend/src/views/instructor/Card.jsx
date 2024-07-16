@@ -10,7 +10,7 @@ export const Card = (data) => {
           key={data.id}
         >
           <div className="w-full flex justify-center">
-            <img className="rounded-full" src={data.image} alt="" />
+            <img className="w-20 h-24" src={data.image} alt="" />
           </div>
           <div>
             <p>{data.title}</p>

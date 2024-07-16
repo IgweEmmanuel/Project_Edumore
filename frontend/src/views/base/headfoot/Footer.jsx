@@ -10,16 +10,22 @@ export default function Footer() {
             <span>Get connected with us on social networks:</span>
           </div>
           <div className="flex justify-center">
-            <a href="#!" className="me-6 [&>svg]:h-4 [&>svg]:w-4">
+            <a
+              href="https://www.facebook.com/igwe.emmanuel.1690"
+              className="me-6 [&>svg]:h-4 [&>svg]:w-4"
+            >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="https://www.facebook.com/igwe.emmanuel.1690"
                 fill="currentColor"
                 viewBox="0 0 320 512"
               >
                 <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
               </svg>
             </a>
-            <a href="#!" className="me-6 [&>svg]:h-4 [&>svg]:w-4 ">
+            <a
+              href="https://x.com/emmanuelgozi"
+              className="me-6 [&>svg]:h-4 [&>svg]:w-4 "
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -28,15 +34,7 @@ export default function Footer() {
                 <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
               </svg>
             </a>
-            <a href="#!" className="me-6 [&>svg]:h-4 [&>svg]:w-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 488 512"
-              >
-                <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
-              </svg>
-            </a>
+
             <a href="#!" className="me-6 [&>svg]:h-4 [&>svg]:w-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -74,44 +72,28 @@ export default function Footer() {
                 <img className="h-10 w-auto" alt="Edumore" src={Logo} />
                 Edumore
               </h6>
-              <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
-              </p>
+              <p>Here at Edumore, we make studying fun and easy!</p>
             </div>
             <div>
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 Products
               </h6>
               <p className="mb-4">
-                <a href="#!">Angular</a>
+                <a href="#!">Videos</a>
               </p>
               <p className="mb-4">
-                <a href="#!">React</a>
-              </p>
-              <p className="mb-4">
-                <a href="#!">Vue</a>
-              </p>
-              <p>
-                <a href="#!">Laravel</a>
+                <a href="#!">PDF notes.</a>
               </p>
             </div>
             <div>
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                Useful links
+                Services
               </h6>
               <p className="mb-4">
-                <a href="#!">Pricing</a>
+                <a href="">Tutorial Classes</a>
               </p>
               <p className="mb-4">
-                <a href="#!">Settings</a>
-              </p>
-              <p className="mb-4">
-                <a href="#!">Orders</a>
-              </p>
-              <p>
-                <a href="#!">Help</a>
+                <a href="#!">Exam Preparation</a>
               </p>
             </div>
             <div>
@@ -129,7 +111,7 @@ export default function Footer() {
                     <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
                   </svg>
                 </span>
-                New York, NY 10012, US
+                Ademola Street, Oniru, Victoria Island, Lagos, Nigeria.
               </p>
               <p className="mb-4 flex items-center justify-center md:justify-start">
                 <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -142,7 +124,7 @@ export default function Footer() {
                     <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                   </svg>
                 </span>
-                info@example.com
+                info@edumore.com
               </p>
               <p className="mb-4 flex items-center justify-center md:justify-start">
                 <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -158,23 +140,7 @@ export default function Footer() {
                     />
                   </svg>
                 </span>
-                + 01 234 567 88
-              </p>
-              <p className="flex items-center justify-center md:justify-start">
-                <span className="me-3 [&>svg]:h-5 [&>svg]:w-5">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M7.875 1.5C6.839 1.5 6 2.34 6 3.375v2.99c-.426.053-.851.11-1.274.174-1.454.218-2.476 1.483-2.476 2.917v6.294a3 3 0 003 3h.27l-.155 1.705A1.875 1.875 0 007.232 22.5h9.536a1.875 1.875 0 001.867-2.045l-.155-1.705h.27a3 3 0 003-3V9.456c0-1.434-1.022-2.7-2.476-2.917A48.716 48.716 0 0018 6.366V3.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM16.5 6.205v-2.83A.375.375 0 0016.125 3h-8.25a.375.375 0 00-.375.375v2.83a49.353 49.353 0 019 0zm-.217 8.265c.178.018.317.16.333.337l.526 5.784a.375.375 0 01-.374.409H7.232a.375.375 0 01-.374-.409l.526-5.784a.373.373 0 01.333-.337 41.741 41.741 0 018.566 0zm.967-3.97a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H18a.75.75 0 01-.75-.75V10.5zM15 9.75a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V10.5a.75.75 0 00-.75-.75H15z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </span>
-                + 01 234 567 89
+                +234 8165 537 373
               </p>
             </div>
           </div>
@@ -182,8 +148,8 @@ export default function Footer() {
 
         <div className="bg-black/5 p-6 text-center">
           <span>© 2023 Copyright:</span>
-          <a className="font-semibold" href="https://tw-elements.com/">
-            TW Elements
+          <a className="font-semibold" href="#">
+            Edumore
           </a>
         </div>
       </footer>{' '}

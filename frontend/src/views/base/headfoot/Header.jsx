@@ -9,8 +9,14 @@ import { Link } from 'react-router-dom'
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
-  { name: 'Services', href: '/services' },
+  // { name: 'Services', href: '/services' },
   { name: 'Contact', href: '/contact' },
+  // { name: 'Login', href: '/login' },
+  // { name: 'Register', href: '/register' },
+]
+const logreg = [
+  { name: 'Login', href: '/login' },
+  { name: 'Register', href: '/register' },
 ]
 
 export default function Header() {
@@ -52,7 +58,20 @@ export default function Header() {
               </a>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-2">
+            <button>
+              {logreg.map((item) => (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-sm font-semibold leading-6 text-gray-900 mr-8"
+                >
+                  {item.name}
+                </a>
+              ))}
+            </button>
+
             {/* <Link
               to="/login"
               className="text-sm font-semibold leading-6 text-gray-900"
@@ -68,7 +87,7 @@ export default function Header() {
         >
           <div className="fixed inset-0 z-50" />
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-            <div className="flex items-center justify-between">
+            <div id="bt" className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img alt="" src="" className="h-8 w-auto" />

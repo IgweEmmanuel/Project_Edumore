@@ -1,7 +1,7 @@
 // import React from 'react'
 import { useState } from 'react'
 import { Card } from './Card'
-import { first, second } from './content.js'
+import { first, second, third } from './content.js'
 import { Link } from 'react-router-dom'
 
 export const DashContent = () => {
@@ -17,7 +17,7 @@ export const DashContent = () => {
           }`}
           onClick={() => setActiveTab('first')}
         >
-          First Term
+          SS1
         </button>
         <button
           className={`${
@@ -27,7 +27,7 @@ export const DashContent = () => {
           }`}
           onClick={() => setActiveTab('second')}
         >
-          Second Term
+          SS2
         </button>
         <button
           className={`${
@@ -37,7 +37,7 @@ export const DashContent = () => {
           }`}
           onClick={() => setActiveTab('third')}
         >
-          Third Term
+          SS3
         </button>
       </div>
       {activeTab == 'first' && (
@@ -47,8 +47,8 @@ export const DashContent = () => {
           </div>
           <div className="flex justify-center">
             <div className="text-center sm:pb-4">
-              <span className="font-bold text-xl">Biology</span>
-              <p>Select your weekly notes</p>
+              {/* <span className="font-bold text-xl">Biology</span> */}
+              <p>Select your subject</p>
             </div>
           </div>
           <div className="w-full flex justify-center md:py-10 lg:py-18">
@@ -69,8 +69,8 @@ export const DashContent = () => {
           </div>
           <div className="flex justify-center">
             <div className="text-center sm:pb-4">
-              <span className="font-bold text-xl">Biology</span>
-              <p>Select your weekly notes</p>
+              {/* <span className="font-bold text-xl">Biology</span> */}
+              <p>Select your subject</p>
             </div>
           </div>
 
@@ -93,13 +93,13 @@ export const DashContent = () => {
           </div>
           <div className="flex justify-center">
             <div className="text-center sm:pb-4">
-              <span className="font-bold text-xl">Biology</span>
-              <p>Select your weekly notes</p>
+              {/* <span className="font-bold text-xl">Biology</span> */}
+              <p>Select your subject</p>
             </div>
           </div>
           <div className="w-full flex justify-center md:py-10 lg:py-18">
             <div className="w-[80%] grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center gap-8">
-              {first.map((el) => (
+              {third.map((el) => (
                 <Link key={el.id} to={el.url}>
                   <Card image={el.image} title={el.title} />
                 </Link>

@@ -1,8 +1,8 @@
 // import React from 'react'
 import { useState } from 'react'
-import { WeekCard } from './WeekCard'
-import { video, text } from '../../content.js'
-import Header from '../../headfoot/Header.jsx'
+import { ClassCard } from '../ClassCard'
+import { ss1VideoComp1, ss1TextComp1 } from '../../../content.js'
+import Header from '../../../headfoot/Header.jsx'
 
 export default function Weeks() {
   const [activeTab, setActiveTab] = useState('video')
@@ -10,7 +10,7 @@ export default function Weeks() {
     <div>
       <Header />
       <div className="w-full flex justify-center font-bold text-2xl md:pt-4 lg:pt-4 md:text-4xl pb-4">
-        <span>Week</span>
+        <span>Study</span>
       </div>
 
       <div className="w-full flex justify-center gap-4 text-lg">
@@ -39,13 +39,13 @@ export default function Weeks() {
         <div className="w-full pt-4">
           <div className="flex justify-center">
             <div className="text-center sm:pb-4">
-              <span className="font-bold text-xl">Biology</span>
+              <span className="font-bold text-xl">Computer</span>
             </div>
           </div>
           <div className="w-full flex justify-center">
             <div className="w-full grid grid-cols-1 place-items-center px-20">
-              {video.map((el) => (
-                <WeekCard key={el.id} url={el.video} title={el.title} />
+              {ss1VideoComp1.map((el) => (
+                <ClassCard key={el.id} url={el.video} title={el.title} />
               ))}
             </div>
           </div>
@@ -55,14 +55,14 @@ export default function Weeks() {
         <div className="w-full pt-4">
           <div className="flex justify-center">
             <div className="text-center sm:pb-4">
-              <span className="font-bold text-xl">Biology</span>
+              <span className="font-bold text-xl">Computer</span>
             </div>
           </div>
 
           <div className="w-full flex justify-center md:py-10 lg:py-18">
             <div className="w-full grid grid-cols-1 place-items-center gap-8">
-              {text.map((el) => (
-                <WeekCard key={el.id} url={el.text} title={el.title} />
+              {ss1TextComp1.map((el) => (
+                <ClassCard key={el.id} url={el.text} title={el.title} />
               ))}
             </div>
           </div>

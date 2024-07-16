@@ -114,14 +114,14 @@ export default function Login() {
               )}
             </div>
             <div className="flex justify-between">
-              <div className="text-sm">
+              {/* <div className="text-sm">
                 <Link
                   to="/fpwd"
                   className="font-semibold text-indigo-600 hover:text-indigo-600"
                 >
                   Forgot password?
                 </Link>
-              </div>
+              </div> */}
               <div className="text-sm">
                 <Link
                   to="/register"

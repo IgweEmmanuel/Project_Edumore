@@ -1,6 +1,6 @@
 // import packages
 // define our card
-export const WeekCard = (data) => {
+export const ClassCard = (data) => {
   console.log(data)
   return (
     <div>
