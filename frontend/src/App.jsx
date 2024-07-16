@@ -3,8 +3,8 @@ import MainWrapper from './layout/MainWrapper'
 import PrivateRoute from './layout/PrivateRoute'
 import Index from './views/base/Index'
 // import Register from './views/auth/Register'
-import About from './views/base/About'
-import Contact from './views/base/Contact'
+import Aboutb from './views/base/About'
+import Contactb from './views/base/Contact'
 import AboutP from './views/instructor/AboutPrivate'
 import ContactP from './views/instructor/ContactPrivate'
 
@@ -48,8 +48,8 @@ function App() {
       <MainWrapper>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<Aboutb />} />
+          <Route path="/contact" element={<Contactb />} />
           {/* <Route path="/register/" element={<Register />} /> */}
           <Route path="/login/" element={<Login />} />
           <Route path="/register/" element={<Register />} />
@@ -83,8 +83,8 @@ function App() {
             <Route path="/teacher/dashboard/ss3gov" element={<Ss3Gov />} />
             <Route path="/teacher/dashboard/ss3math" element={<Ss3Math />} />
             <Route path="/teacher/dashboard/ss3phy" element={<Ss3Phy />} />
-            <Route path="abouts" elements={<AboutP />} />
-            <Route path="contacts" elements={<ContactP />} />
+            <Route path="/abouts" element={<AboutP />} />
+            <Route path="/contacts" element={<ContactP />} />
 
             <Route path="/home" element={<View />} />
           </Route>

@@ -2,7 +2,7 @@
 import Footer from './headfoot/Footer'
 import Header from './headfoot/Header'
 
-export default function Contact() {
+export default function ContactPrivate() {
   return (
     <>
       <Header />
@@ -18,15 +18,16 @@ export default function Contact() {
           </div>
           <div className="mt-16 lg:mt-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="rounded-lg overflow-hidden">
-                <iframe
-                  src=""
-                  width="100%"
-                  height="480"
-                  style="border:0;"
-                  allowFullscreen=""
-                  loading="lazy"
-                ></iframe>
+              <div className="rounded-lg overflow-hidden video-container">
+                {/* <iframe
+                  src="https://maps.app.goo.gl/xoweRq1EVJ17v6HF9"
+                  width="300"
+                  height="400"
+                  // style="border:0;"
+                  allowFullscreen
+                  // loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                ></iframe> */}
               </div>
               <div>
                 <div className="max-w-full mx-auto rounded-lg overflow-hidden">

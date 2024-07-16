@@ -2,7 +2,7 @@
 import Footer from './headfoot/Footer'
 import Header from './headfoot/Header'
 
-export default function About() {
+export default function AboutPrivate() {
   return (
     <>
       <Header />

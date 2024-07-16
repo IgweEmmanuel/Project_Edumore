@@ -19,14 +19,14 @@ export default function Contact() {
           <div className="mt-16 lg:mt-20">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="rounded-lg overflow-hidden">
-                <iframe
+                {/* <iframe
                   src=""
                   width="100%"
                   height="480"
                   style="border:0;"
                   allowFullscreen=""
                   loading="lazy"
-                ></iframe>
+                ></iframe> */}
               </div>
               <div>
                 <div className="max-w-full mx-auto rounded-lg overflow-hidden">
