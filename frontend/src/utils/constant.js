@@ -1,1 +1,1 @@
-export const API_BASE_URL = 'https://igwe.pythonanywhere.com/:8088/api/v1/'
+export const API_BASE_URL = 'https://mikenoel.pythonanywhere.com/api/v1/'
